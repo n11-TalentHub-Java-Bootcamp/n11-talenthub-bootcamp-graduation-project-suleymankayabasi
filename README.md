@@ -6,20 +6,21 @@
 Building a Restful API for the Loan Application System, which can have the loan application requests and return the loan result with SMS to the customer according to the relevant criteria, using the Spring Boot framework and Frontend.
 
 ## Table of Contents
-- [Project Architecture](#project-architecture)
-- [Technologies](#technologies)
-- [Installing](#installing)
-    - [Maven](#maven)
-    - [Docker](#docker)
-- [Usage](#usage)
-    - [Description](#description)
-    - [Endpoints](#endpoints)
-    - [Application UI](#application-ui)
-- [TODO](#todo)
-- [Contributing](#contributing)
+- Project Architecture
+- Technologies
+- Installing]
+    - Maven
+    - Docker
+- Usage
+    - Description
+    - Endpoints
+    - Application User Interface
+- TODO
+- License
+- Contact
 ## Project Architecture
 
-RESİM GELECEK BURAYA
+![Untitled Diagram](https://user-images.githubusercontent.com/82765835/151706136-1ea46d74-d0a5-4c74-a17d-46c156499041.jpg)
 
 ## Technologies
 - Oracle JDK 11
@@ -41,11 +42,11 @@ RESİM GELECEK BURAYA
 **1. Clone the application**
 
 ```bash
-git clone KENDİ URL VER https://github.com/113-GittiGidiyor-Java-Spring-Bootcamp/gittigidiyor-graduation-project-rhancav
+git clone KENDİ URL VER 
 ```
 **2. Go to the project directory**
 ```bash
-cd burayı da değiş gittigidiyor-graduation-project-rhancav
+cd burayı da değiş 
 ```
 **3. Run**
 ```bash
@@ -55,11 +56,11 @@ mvnw spring-boot:run
 **1. Clone the application**
 
 ```bash
-git clone KENDİ URL VER https://github.com/113-GittiGidiyor-Java-Spring-Bootcamp/gittigidiyor-graduation-project-rhancav
+git clone KENDİ URL VER 
 ```
 **2. Go to the project directory**
 ```bash
-cd BURAYIDA DEĞİŞTİR gittigidiyor-graduation-project-rhancav
+cd BURAYIDA DEĞİŞTİR 
 ```
 **3. Run**
 ```bash
@@ -97,8 +98,8 @@ A completed loan application can only be queried with the ID number and date of 
 ### Credit Service
 
 | Endpoint | Method |  Params | Description                                                                                                                                                           |
-| -------------:|:--------:|:-------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                          |
-|    `/credit/get` | GET | national-id, birthday | GET the Loan Application Detail to query from databases. Request a body which contains `national-id` and  `CustomerDetailDTO`.
+| -------------:|:--------:|:-------:| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                         
+|    `/credit/get` | GET | national-id, birthday | GET the Loan Application Detail to query from databases. Request a body which contains `national-id` and  `CustomerDetailDTO`.   |
 
 ## Application User Interface
 
@@ -107,4 +108,48 @@ I needed a total of 6 pages for the requirements of the project and I provided t
 There is no validation control on the frontend. Therefore, care should be taken when entering data.
 Finally, if you send an incorrect request, you will receive a warning message. If you send correct request,you will receive a approval message.
 
-BURAYA RESİM VE AÇIKLAMLAR GELCEK
+## Main Page
+
+There are 2 different buttons on the main page. The application form button is for application procedures. The second button is for post-application processes.
+
+<img width="1440" alt="Ekran Resmi 2022-01-30 18 12 52" src="https://user-images.githubusercontent.com/82765835/151706230-abfd42d4-3300-4624-91f2-a91260921b90.png">
+
+After clicking the application form button, you will come to the application screen. On this screen, the customer's information is obtained and an application is created by clicking the last application button. 
+
+!!Reminding!! Data should be entered as in the picture.
+
+<img width="1440" alt="Ekran Resmi 2022-01-30 18 16 51" src="https://user-images.githubusercontent.com/82765835/151706263-d2fe55b0-7007-420a-be30-a4b2a2209022.png">
+
+You should click the second button to learn the process of updating and deleting the user or the application result.
+
+<img width="1440" alt="Ekran Resmi 2022-01-30 18 17 29" src="https://user-images.githubusercontent.com/82765835/151706843-2d6b8cc9-5ca9-4a5c-8cbd-02d769da148a.png">
+
+After clicking the button, you will see 3 different buttons. You have to click the relevant button for what you want to do.
+
+<img width="1440" alt="Ekran Resmi 2022-01-30 18 18 10" src="https://user-images.githubusercontent.com/82765835/151706294-95709fa4-9979-4bc2-b1b1-8ecc90a2d3d7.png">
+
+If you want to delete a customer, you must enter the correct customer national ID number and date of birth, otherwise you will see an error message.
+
+<img width="1440" alt="Ekran Resmi 2022-01-30 18 18 50" src="https://user-images.githubusercontent.com/82765835/151706353-7b4b4b3d-2d77-469a-b765-84849d9066b8.png">
+
+If you want to update the customer, you can change the fields you want to update (but not all fields are updated), and if you do not enter the ucustomer national ID number correctly, you will see an error message.
+
+<img width="1440" alt="Ekran Resmi 2022-01-30 18 19 48" src="https://user-images.githubusercontent.com/82765835/151706313-eb948c03-714d-4423-8380-309d2a0991eb.png">
+
+If you want to query a loan application result , you must enter the correct customer national ID number and date of birth, otherwise you will see an error message.
+
+<img width="1440" alt="Ekran Resmi 2022-01-30 18 20 10" src="https://user-images.githubusercontent.com/82765835/151706332-b3760906-44cf-4e73-8730-7b455a2a4f83.png">
+
+## To Do List
+
+* Frontend can be improved
+* Notification can send sms instead of logging
+* Config Server can be added
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+## Contact
+
+Süleyman Kaybaşı - [Linkedin](https://www.linkedin.com/in/suleymankayabasi/)
