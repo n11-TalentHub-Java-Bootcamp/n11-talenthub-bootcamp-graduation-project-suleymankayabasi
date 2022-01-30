@@ -43,34 +43,53 @@ Building a Restful API for the Loan Application System, which can have the loan 
 
 ## Installation
 
-### Maven
+**To run locally(recommended)**
+
 **1. Clone the application**
 
-```bash
-git clone KENDİ URL VER 
+```shell
+$ git clone link
+$ cd proje name
 ```
-**2. Go to the project directory**
-```bash
-cd burayı da değiş 
-```
-**3. Run**
-```bash
-mvnw spring-boot:run
-```
-### Docker
-**1. Clone the application**
 
-```bash
-git clone KENDİ URL VER 
+**2. Eureka-Server**
+
+```shell
+  $ cd eureka-server
+  $ mvn spring-boot:run
 ```
-**2. Go to the project directory**
-```bash
-cd BURAYIDA DEĞİŞTİR 
+**3. Api-Gateway**
+
+```shell
+  $ cd api-gateway
+  $ mvn spring-boot:run
 ```
-**3. Run**
-```bash
-docker-compose up
+**4. Customer Service**
+
+```shell
+  $ cd customer-service
+  $ mvn spring-boot:run
 ```
+**5. Credit Service**
+
+```shell
+  $ cd credit-service
+  $ mvn spring-boot:run
+```
+
+**6. Notification Service**
+
+```shell
+  $ cd notification-service
+  $ mvn spring-boot:run
+```
+
+**To run with docker(under development)**
+  ```shell
+  $ docker-compose up
+  ```
+
+
 ## Usage
 
 ### Description
