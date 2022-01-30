@@ -23,10 +23,14 @@ Building a Restful API for the Loan Application System, which can have the loan 
 ![Untitled Diagram](https://user-images.githubusercontent.com/82765835/151706136-1ea46d74-d0a5-4c74-a17d-46c156499041.jpg)
 
 ## Technologies
+
 - Oracle JDK 11
 - RabbitMQ
 - PostgreSQL
 - Maven
+- Mapstruct
+- Lombok
+- Swagger
 - Spring Data JPA
 - Spring Cloud Gateway
 - Eureka Server
@@ -35,6 +39,7 @@ Building a Restful API for the Loan Application System, which can have the loan 
 - Lombok
 - React
 - Tailwind CSS
+- Jib
 
 ## Installation
 
