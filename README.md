@@ -59,9 +59,9 @@ Building a Restful API for the Loan Application System, which can have the loan 
 
 **7. Run Notification Service**
 
-**8. Open APP-UI and write npm start to terminal **
+**8. Open APP-UI and write npm start to terminal**
 
-**9. Good Job 👍 **
+**9. Good Job 👍**
 
 ## Usage
 
