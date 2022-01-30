@@ -45,50 +45,23 @@ Building a Restful API for the Loan Application System, which can have the loan 
 
 **To run locally(recommended)**
 
-**1. Clone the application**
+**1. Clone the application from Github**
 
-```shell
-$ git clone link
-$ cd proje name
-```
+**2. Run Docker Compose.yml**
 
-**2. Eureka-Server**
+**3. Run Eureka-Server**
 
-```shell
-  $ cd eureka-server
-  $ mvn spring-boot:run
-```
-**3. Api-Gateway**
+**4. Run Api-Gateway**
 
-```shell
-  $ cd api-gateway
-  $ mvn spring-boot:run
-```
-**4. Customer Service**
+**5. Run Customer Service**
 
-```shell
-  $ cd customer-service
-  $ mvn spring-boot:run
-```
-**5. Credit Service**
+**6. Run Credit Service**
 
-```shell
-  $ cd credit-service
-  $ mvn spring-boot:run
-```
+**7. Run Notification Service**
 
-**6. Notification Service**
+**8. Open APP-UI and write npm start to terminal **
 
-```shell
-  $ cd notification-service
-  $ mvn spring-boot:run
-```
-
-**To run with docker(under development)**
-  ```shell
-  $ docker-compose up
-  ```
-
+**9. Good Job 👍 **
 
 ## Usage
 
