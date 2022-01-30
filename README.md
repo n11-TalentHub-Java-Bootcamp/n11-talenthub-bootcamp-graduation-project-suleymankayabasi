@@ -43,7 +43,7 @@ Building a Restful API for the Loan Application System, which can have the loan 
 
 ## Installation
 
-**To run locally(recommended)**
+**To run local**
 
 **1. Clone the application from Github**
 
