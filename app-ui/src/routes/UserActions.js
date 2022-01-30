@@ -1,0 +1,38 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+const UserActions = () => {
+	return (
+		<div className='bg-white min-h-screen w-full flex items-center'>
+			<div className='w-2/6 flex flex-col bg-white mx-auto'>
+				<div className='mt-4 '>
+					<div>
+						<div className='text-center px-4 mb-4'>
+							<Link to='delete'>
+								<h1 className='text-bold font-xl py-2 px-4 bg-gray-800 text-white rounded-md hover:bg-teal-700 cursor-pointer'>
+									Kullanıcı Silme
+								</h1>
+							</Link>
+						</div>
+						<div className='text-center px-4 mb-4'>
+							<Link to='update'>
+								<h1 className='text-bold font-xl py-2 px-4 bg-gray-800 text-white rounded-md hover:bg-teal-700 cursor-pointer'>
+									Kullanıcı Güncelleme
+								</h1>
+							</Link>
+						</div>
+						<div className='text-center px-4 mb-4'>
+							<Link to='query'>
+								<h1 className='text-bold font-xl py-2 px-4 bg-gray-800 text-white rounded-md hover:bg-teal-700 cursor-pointer'>
+									Kredi Durumu Sorgulama
+								</h1>
+							</Link>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+};
+
+export default UserActions;
